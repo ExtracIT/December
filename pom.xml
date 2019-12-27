@@ -10,6 +10,12 @@
   <name>December</name>
   <url>http://maven.apache.org</url>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/lalithprasad12/December.git</developerConnection>
+
+  <url>git:git://git@github.com:lalithprasad12/December.git</url>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -18,5 +24,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+     <snapshotRepository>
+      <id>extracit-snapshot</id>
+      <name>EXTRACIT</name>
+      <url>http://localhost:8081/repository/EXTRACIT/</url>
+    </snapshotRepository>
+    <repository>
+      <id>extracit-release</id>
+      <name>EXTRACIT-RELEASE</name>
+      <url>http://localhost:8081/repository/EXTRACIT-RELEASE/</url>
+    </repository>
+  </distributionManagement>
+
 
 </project>
