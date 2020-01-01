@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.orrbasystems</groupId>
-  <artifactId>october</artifactId>
+  <artifactId>december</artifactId>
   <packaging>jar</packaging>
   <version>2.0-SNAPSHOT</version>
 
-  <name>october</name>
+  <name>December</name>
   <url>http://maven.apache.org</url>
 <scm>
 <developerConnection>scm:git:git@github.com:ExtracIT/December.git</developerConnection>
@@ -14,6 +14,13 @@
   <tag>HEAD</tag>
   </scm>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/lalithprasad12/December.git</developerConnection>
+
+  <url>git:git://git@github.com:lalithprasad12/December.git</url>
+    <tag>HEAD</tag>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -34,5 +41,19 @@
   <url>http://localhost:8081/repository/ExtracIT/</url>
  </snapshotRepository>
 </distributionManagement>
+
+  <distributionManagement>
+     <snapshotRepository>
+      <id>extracit-snapshot</id>
+      <name>EXTRACIT</name>
+      <url>http://localhost:8081/repository/EXTRACIT/</url>
+    </snapshotRepository>
+    <repository>
+      <id>extracit-release</id>
+      <name>EXTRACIT-RELEASE</name>
+      <url>http://localhost:8081/repository/EXTRACIT-RELEASE/</url>
+    </repository>
+  </distributionManagement>
+
 
 </project>
