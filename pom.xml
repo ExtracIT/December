@@ -17,7 +17,6 @@
   </scm>
   
 
-    <project>
     
       <build>
         <!-- To define the plugin version in your parent POM -->
@@ -42,7 +41,6 @@
         </plugins>
       </build>
  
-    </project>
 
 
 
