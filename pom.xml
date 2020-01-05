@@ -13,7 +13,8 @@
     <developerConnection>scm:git:https://github.com/lalithprasad12/December.git</developerConnection>
 
   <url>git:git://git@github.com:lalithprasad12/December.git</url>
-  </scm>
+<tag>HEAD</tag>  
+</scm>
   
 
     
